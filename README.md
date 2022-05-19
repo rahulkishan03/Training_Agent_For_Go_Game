@@ -3,7 +3,6 @@
 ## Overview
 In this program, I Have develop AI agents based on alpha beta pruning and mini max Algorithm.To play a small version of the Go game, called Go-5x5 or Little-Go, that has a reduced board size of 5x5. Your agent will play this Little-Go game against some basic as well as more advanced AI agents. 
 
-
 ## Game Description
 
 Go is an abstract strategy board game for two players, in which the aim is to surround more territory
@@ -21,7 +20,6 @@ The basic process of playing the Go (Little-Go) game is also very simple:
 - The players may choose any unoccupied point to play on (except for those forbidden by the “KO”
 and “no-suicide” rules).
 - Once played, a stone can never be moved and can be taken off the board only if it is captured.
-
 
 ## Rule1: The Liberty Rule
 Every stone remaining on the board must have at least one open point, called a liberty, directly
@@ -42,3 +40,13 @@ repeated ad infinitum, stalling the progress of the game. This situation is know
 The KO rule resolves the situation: If one player captures the KO, the opponent is prohibited from
 recapturing the KO immediately.
 
+## Komi
+Because Black has the advantage of playing the first move, awarding White some compensation is called
+Komi. This is in the form of giving White a compensation of score at the end of the game. In this
+homework (a board size of 5x5), Komi for the White player is set to be 5/2 = 2.5.
+
+## Passing
+A player may waive his/her right to make a move, called passing, when determining that the game offers
+no further opportunities for profitable play. A player may pass his/her turn at any time. Usually, passing
+is beneficial only at the end of the game, when further moves would be useless or maybe even harmful
+to a player's position.
