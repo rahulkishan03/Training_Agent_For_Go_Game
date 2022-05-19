@@ -1,1 +1,1 @@
-# go_game_alpha_beta_pruning-
+Training_Agent_For_Go_Game
